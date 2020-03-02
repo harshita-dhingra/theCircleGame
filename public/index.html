@@ -15,6 +15,21 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <style>
+      #modal {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        /* border-radius: 1rem; */
+        /*background-color: #030925;*/
+        /*opacity: 0.6;*/
+       background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        color: #e3e6ef;
+        /* transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease; */
+        box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset, 0 0 0 0 transparent;
+      }
+    </style>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
