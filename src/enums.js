@@ -1,5 +1,5 @@
 const CONSTANT = {
-  COUNT: 3,
+  COUNT: 12,
 
 };
 
